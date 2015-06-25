@@ -9,7 +9,7 @@ next: concepts.html
 
 如果你仅仅是想简单下载一张网络图片，在下载完成之前，显示一张占位图，那么简单使用 [SimpleDraweeView](../javadoc/reference/com/facebook/drawee/view/SimpleDraweeView.html) 即可。
 
-在Application 初始化时:
+Application 初始化时，在setContentView()之前初始化Fresco类:
 
 ```java
 Fresco.initialize(context);
